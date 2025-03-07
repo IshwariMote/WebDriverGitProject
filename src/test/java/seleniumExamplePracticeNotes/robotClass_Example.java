@@ -1,4 +1,4 @@
-package seleniumExample;
+package seleniumExamplePracticeNotes;
 
 import java.awt.*;
 import java.awt.event.KeyEvent;

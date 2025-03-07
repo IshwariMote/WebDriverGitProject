@@ -1,4 +1,4 @@
-package seleniumExample;
+package seleniumExamplePracticeNotes;
 
 import org.openqa.selenium.Cookie;
 import org.openqa.selenium.WebDriver;

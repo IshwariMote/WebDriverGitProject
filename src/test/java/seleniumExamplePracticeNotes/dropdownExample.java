@@ -1,4 +1,4 @@
-package seleniumExample;
+package seleniumExamplePracticeNotes;
 
 import java.sql.Time;
 import java.util.List;

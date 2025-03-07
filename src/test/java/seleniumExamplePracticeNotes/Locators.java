@@ -1,4 +1,4 @@
-package seleniumExample;
+package seleniumExamplePracticeNotes;
 
 import java.util.List;
 import java.util.concurrent.TimeUnit;

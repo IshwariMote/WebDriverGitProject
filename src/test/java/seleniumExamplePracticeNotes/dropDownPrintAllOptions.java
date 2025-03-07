@@ -1,4 +1,4 @@
-package seleniumExample;
+package seleniumExamplePracticeNotes;
 import java.util.List;
 
 import org.openqa.selenium.By;
