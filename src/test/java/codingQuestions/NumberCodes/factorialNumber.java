@@ -1,4 +1,4 @@
-package codingQuestions;
+package codingQuestions.NumberCodes;
 
 public class factorialNumber {
 
@@ -20,6 +20,14 @@ public class factorialNumber {
 		}
 	
 		System.out.println("Factorial of a number is :"+fact);
+		
+		 int Factnum=1;
+		for (int i =1; i<=num; i++) {
+			Factnum= Factnum*i;
+		}
+	
+		System.out.println("Factorial of a number is :"+Factnum);
+	
 	
 	}
 

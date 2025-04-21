@@ -6,14 +6,14 @@ package coreJavaConcepts;
 
 //Final, static methods of parent class can not be overriden in subclass
 //access qualifier must be same 
-class Animal {
+class AnimalSound {
     // Method in superclass
     public void sound() {
         System.out.println("Animal makes a sound");
     }
 }
 
-class Dog extends Animal {
+class DogSound extends AnimalSound {
     // Overriding the sound method in the subclass
     @Override
     public void sound() {
@@ -23,8 +23,8 @@ class Dog extends Animal {
 
 class oevrridingMethod {
     public static void main(String[] args) {
-        Animal myAnimal = new Animal();  // Animal object
-        Animal myDog = new Dog();        // Dog object, but referenced as Animal
+        AnimalSound myAnimal = new AnimalSound();  // Animal object
+        DogSound myDog = new DogSound();        // Dog object, but referenced as Animal
 
         myAnimal.sound();  // Output: Animal makes a sound
         myDog.sound();     // Output: Dog barks (overridden method)

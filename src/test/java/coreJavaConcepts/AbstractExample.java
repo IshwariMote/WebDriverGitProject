@@ -19,14 +19,8 @@ class Circle extends Shape {
  }
 }
 
-class Square extends Shape {
- @Override
- public void draw() {
-     System.out.println("Drawing a square");
- }
-
-
-
+public class AbstractExample {
+ 
  public static void main(String[] args) {
      // Shape s = new Shape();  // Error! Cannot instantiate an abstract class
 
@@ -34,14 +28,12 @@ class Square extends Shape {
     // Shape circle = new Circle();
 	 
 	 Circle obj = new Circle();
-    // Shape square = new Square();
-	 Square obj1 = new Square();
+  
 
      // Calling methods
     // circle.description();  // Output: This is a shape
      obj.draw();         // Output: Drawing a circle
-
-     //square.description();  // Output: This is a shape
-     obj1.draw();         // Output: Drawing a square
  }
+   
+
 }

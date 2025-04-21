@@ -1,6 +1,7 @@
 package codingQuestions;
 
-public class Test2 {
+public class PractiseTest
+{
 
 	public static void main(String[] args) {
 
@@ -8,6 +9,9 @@ public class Test2 {
 
 		String a ="Hello this the change after the Leads Comment ";
 		System.out.println(a);
+		for (int i = 100; i >= 0; i -= 2) {
+            System.out.print(i + " ");
+        }
 		
 		
 	}

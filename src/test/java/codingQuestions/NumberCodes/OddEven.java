@@ -1,4 +1,4 @@
-package codingQuestions;
+package codingQuestions.NumberCodes;
 
 import java.util.Scanner;
 

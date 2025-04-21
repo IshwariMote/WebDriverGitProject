@@ -1,4 +1,4 @@
-package codingQuestions;
+package codingQuestions.NumberCodes;
 
 import java.util.Scanner;
 
@@ -32,9 +32,6 @@ public class primeNumber {
 		}else {
 			System.out.println("Not Prime Number ");
 		}
-		}else 
-		{
-			System.out.println("Not a Prime Number");
 		}
 	}
 

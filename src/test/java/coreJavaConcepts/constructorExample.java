@@ -1,13 +1,8 @@
 package coreJavaConcepts;
 
 public class constructorExample {
-
-
-	
 	  int a1 ; int a2; int z;
-	  
-	  
-	  // no return type void 
+// no return type void 
 	  constructorExample(){
 	  
 	  a1 =101; 

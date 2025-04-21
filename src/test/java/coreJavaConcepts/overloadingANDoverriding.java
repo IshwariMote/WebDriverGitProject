@@ -16,6 +16,7 @@ package coreJavaConcepts;
 	
 	class Z extends X{
 		
+		@Override
 		void m1(int X) {
 			System.out.println(X*X);
 		}

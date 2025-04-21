@@ -42,5 +42,10 @@
 
 
 
+  	<dependency>
+  		<groupId>automation-assignment</groupId>
+  		<artifactId>automation-assignment</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
   </dependencies>
 </project>
